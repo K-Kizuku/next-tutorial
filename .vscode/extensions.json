@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "streetsidesoftware.code-spell-checker",
+    "esbenp.prettier-vscode",
+    "ecmel.vscode-html-css",
+    "dsznajder.es7-react-js-snippets"
+  ]
+}
