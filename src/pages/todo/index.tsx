@@ -44,7 +44,7 @@ const TodoApp: FC = () => {
 
   return (
     <div className="max-w-lg mx-auto p-8">
-      <h1 className="text-3xl font-bold mb-4">Todo アプリ</h1>
+      <h1 className="text-3xl font-bold mb-4 text-green-400">Todo アプリ</h1>
 
       <div className="flex mb-4">
         <input
@@ -56,7 +56,7 @@ const TodoApp: FC = () => {
           onKeyDown={handleKeyDown}
         />
         <button
-          className="rounded-md m-2 px-4 py-2 bg-blue-500 text-white font-semibold"
+          className="rounded-md m-2 px-4 py-2 bg-yellow-500 text-white font-semibold"
           onClick={handleAddTodo}
         >
           追加
@@ -67,9 +67,8 @@ const TodoApp: FC = () => {
         {todos.map((todo) => (
           <li
             key={todo.id}
-            className={`flex items-center ${
-              todo.completed ? "line-through text-gray-400" : ""
-            }`}
+            className={`flex items-center ${todo.completed ? "line-through text-gray-400" : ""
+              }`}
           >
             <input
               type="checkbox"
