@@ -1,12 +1,13 @@
 import Link from "next/link";
+import { FC } from "react";
 
-const Header = () => {
+const Header: FC = () => {
   return (
     <header>
       <nav className=" bg-blue-500 border-gray-200 px-4 lg:px-6 py-2.5 ">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
-            KCL★Hackathon
+            KCL★Hack
           </span>
           <div className="flex items-center lg:order-2">
             <Link
@@ -16,6 +17,7 @@ const Header = () => {
               LOGIN
             </Link>
           </div>
+
           <div
             className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
             id="mobile-menu-2"

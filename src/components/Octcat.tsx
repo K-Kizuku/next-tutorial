@@ -1,4 +1,6 @@
-const Octcat = () => {
+import { FC } from "react";
+
+const Octcat: FC = () => {
   return (
     <a
       href="https://github.com/K-Kizuku/next-tutorial"

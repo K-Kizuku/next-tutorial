@@ -1,14 +1,14 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import Link from "next/link";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="">
-      <div>Welcome to KCL!!</div>
-      <Link href="/todo">TODOアプリのページに移動</Link>
+    <div className="flex items-center justify-center mt-24">
+      <div className="text-center">
+        <div className=" text-6xl font-bold mb-4">Welcome to KCL!!</div>
+        <Link href="/todo" className="text-blue-500">
+          TODOアプリのページに移動
+        </Link>
+      </div>
     </div>
   );
 }
