@@ -44,22 +44,22 @@ const TodoApp: FC = () => {
 
   return (
     <div className="max-w-lg mx-auto p-8">
-      <h1 className="text-3xl font-bold mb-4">Todo アプリ</h1>
+      <h1 className="text-3xl font-bold mb-4 text-blue-500">Todo アプリ</h1>
 
       <div className="flex mb-4">
         <input
           type="text"
-          className="rounded-md m-2 p-2 flex-1 border outline-none focus:ring-2 focus:ring-blue-500"
-          placeholder="TODOを入力してね"
+          className="rounded-md m-2 p-2 flex-1 border border-red-500 outline-none focus:ring-2 focus:ring-red-500 "
+          placeholder="TODOを入力するんだ"
           value={inputValue}
           onChange={handleInputChange}
           onKeyDown={handleKeyDown}
         />
         <button
-          className="rounded-md m-2 px-4 py-2 bg-blue-500 text-white font-semibold"
+          className="rounded-md m-2 px-4 py-2 bg-red-500 text-white font-semibold hover:bg-red-400"
           onClick={handleAddTodo}
         >
-          追加
+          追加！！
         </button>
       </div>
 
