@@ -44,12 +44,12 @@ const TodoApp: FC = () => {
 
   return (
     <div className="max-w-lg mx-auto p-8">
-      <h1 className="text-3xl font-bold mb-4">Todo アプリ</h1>
+      <h1 className="text-3xl font-bold mb-4 text-green-600">Todo アプリ</h1>
 
       <div className="flex mb-4">
         <input
           type="text"
-          className="rounded-md m-2 p-2 flex-1 border outline-none focus:ring-2 focus:ring-blue-500"
+          className="rounded-md m-2 p-2 flex-1 border outline-none focus:ring-2 focus:ring-green-700"
           placeholder="TODOを入力してね"
           value={inputValue}
           onChange={handleInputChange}
