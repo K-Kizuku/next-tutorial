@@ -44,7 +44,7 @@ const TodoApp: FC = () => {
 
   return (
     <div className="max-w-lg mx-auto p-8">
-      <h1 className="text-3xl font-bold mb-4">Todo アプリ</h1>
+      <h1 className="text-3xl font-bold mb-4 text-yellow-500">Todo アプリ</h1>
 
       <div className="flex mb-4">
         <input
