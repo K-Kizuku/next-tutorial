@@ -3,7 +3,7 @@ import { FC } from "react";
 const Octcat: FC = () => {
   return (
     <a
-      href="https://github.com/K-Kizuku/next-tutorial"
+      href="https://github.com/etohan/next-tutorial"
       target="_blank"
       className="group fill-[#151513] text-white absolute top-0 border-0 right-0"
     >
