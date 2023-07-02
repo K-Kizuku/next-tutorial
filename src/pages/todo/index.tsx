@@ -56,7 +56,7 @@ const TodoApp: FC = () => {
           onKeyDown={handleKeyDown}
         />
         <button
-          className="rounded-md m-2 px-4 py-2 bg-blue-500 text-white font-semibold"
+          className="rounded-md m-2 px-4 py-2 bg-red-500 text-white font-semibold"
           onClick={handleAddTodo}
         >
           追加
